@@ -1,0 +1,15 @@
+<suite name = "FlightResevearion">
+
+	<test name="Passenger count">
+
+		<parameter name="noOfPassengers" value="1" />
+		<parameter name="expectedPrice" value="$584 USD" />
+
+		<Classes>
+
+			<Class name="com.vinGuru.tests.flightResevearion.FlightReseverationTest" />
+
+		</Classes>
+
+	</test>
+</suite>

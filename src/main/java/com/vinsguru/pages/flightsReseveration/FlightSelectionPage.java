@@ -17,14 +17,13 @@ public class FlightSelectionPage extends AbstractPage {
 		super(driver);
 	}
 
-	@FindBy(id = "departure-flight")
-	private List<WebElement> departureFlights;
+	@FindBy(xpath = "(//input[@name='departure-flight'])[1]")
+	private WebElement departureFlights;
 
-	@FindBy(id = "arrival-flight")
-	private List<WebElement> arrivalFlights;
+	@FindBy(xpath = "(//input[@name='arrival-flight'])[1]")
+	private WebElement arrivalFlights;
 
 	@FindBy(id = "confirm-flights")
-
 	private WebElement confirmFlightsBtn;
 
 	public boolean isAt() {
@@ -33,9 +32,8 @@ public class FlightSelectionPage extends AbstractPage {
 	}
 
 	public void selectFlights() {
-		int random = ThreadLocalRandom.current().nextInt(0, departureFlights.size());
-		this.departureFlights.get(random);
-		this.arrivalFlights.get(random);
+		this.departureFlights.click();
+		this.arrivalFlights.click();
 	}
 
 	public void confirmFlights() {
