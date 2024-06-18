@@ -3,13 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vinsGuru.vendarPortal.VendorPortalTest">
+      <class name="com.vinGuru.tests.flightResevearion.FlightReseverationTest">
         <methods>
-          <include name="dashBoardTest"/>
-          <include name="loginTest"/>
+          <include name="userRegistaraionTest"/>
+          <include name="quiteDriver"/>
+          <include name="flightReseverationConfirmationTest"/>
+          <include name="flightSearchTest"/>
+          <include name="flightSelectionTest"/>
+          <include name="setPage"/>
           <include name="setDriver"/>
+          <include name="registartionConfirmationPage"/>
         </methods>
-      </class> <!-- com.vinsGuru.vendarPortal.VendorPortalTest -->
+      </class> <!-- com.vinGuru.tests.flightResevearion.FlightReseverationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

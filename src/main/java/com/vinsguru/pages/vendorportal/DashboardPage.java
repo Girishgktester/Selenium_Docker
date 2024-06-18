@@ -49,7 +49,7 @@ public class DashboardPage extends AbstractPage {
         return this.monthlyEarningElement.isDisplayed();
     }
 
-    public String getMonthlyEarning(){
+    public String getMonthlyEarning(){    	
         return this.monthlyEarningElement.getText();
     }
 

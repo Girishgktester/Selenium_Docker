@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test thread-count="5" name="Test1s">
+
+		<parameter name="testDataPath" value="TestData/VendorPortal/sam.json" />
+		<parameter name="expectedPrice" value="$584 USD" />
+
+		<classes>
+			<class name="com.vinsGuru.vendarPortal.VendorPortalTest" />
+
+		</classes>
+	</test>
+</suite> 
+
