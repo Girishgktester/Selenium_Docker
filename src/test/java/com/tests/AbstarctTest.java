@@ -8,7 +8,6 @@ import org.testng.annotations.BeforeTest;
 public abstract class AbstarctTest {
 
 	protected WebDriver driver;
-
 	@BeforeTest
 	public void setDriver() {
 		this.driver = new ChromeDriver();
