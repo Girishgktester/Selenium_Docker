@@ -5,14 +5,14 @@ import static org.testng.Assert.assertTrue;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import com.tests.AbstarctTest;
+import com.tests.BaseTest;
 import com.vinsguru.pages.flightsReseveration.FlightConfirmationPage;
 import com.vinsguru.pages.flightsReseveration.FlightSearchPage;
 import com.vinsguru.pages.flightsReseveration.FlightSelectionPage;
 import com.vinsguru.pages.flightsReseveration.RegestrationPage;
 import com.vinsguru.pages.flightsReseveration.RegistrationConfirmationPage;
 
-public class FlightReseverationTest extends AbstarctTest {
+public class FlightReseverationTest extends BaseTest {
 
 	private String noOfPassengers;
 	private String expectedPrice;

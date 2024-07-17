@@ -79,6 +79,7 @@
 				<configuration>
 					<systemPropertyVariables>
 						<browser>chrome</browser>
+						<seleniuum.grid.enabled>true</seleniuum.grid.enabled>
 					</systemPropertyVariables>
 					<suiteXmlFiles>
 						<file>test-suite.xml</file>

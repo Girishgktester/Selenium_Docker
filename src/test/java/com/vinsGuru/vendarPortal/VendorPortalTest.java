@@ -1,22 +1,19 @@
 package com.vinsGuru.vendarPortal;
 
-import com.tests.AbstarctTest;
+import com.tests.BaseTest;
 import com.utils.jsonUtils;
 import com.vinsguru.pages.vendorportal.DashboardPage;
 import com.vinsguru.pages.vendorportal.LoginPage;
-
 import model.VendorPortalTestData;
-
 import static org.testng.Assert.assertTrue;
-
 import java.io.IOException;
-
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class VendorPortalTest extends AbstarctTest {
+public class VendorPortalTest extends BaseTest {
 
 	private LoginPage loginPage;
 	private DashboardPage dashboardPage;
