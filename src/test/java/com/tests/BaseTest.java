@@ -1,14 +1,11 @@
 package com.tests;
 
-import java.time.Duration;
 import java.net.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
@@ -25,7 +22,6 @@ public abstract class BaseTest {
 		}
 	}
 
-	@SuppressWarnings("deprecation")
 	private WebDriver getRemoteDriver() throws MalformedURLException {
 		org.openqa.selenium.Capabilities capbilities;
 		if (System.getProperty("browser").equalsIgnoreCase("chrome")) {
