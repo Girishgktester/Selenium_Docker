@@ -82,7 +82,7 @@
 						<selenium.grid.enabled>true</selenium.grid.enabled>
 					</systemPropertyVariables>
 					<suiteXmlFiles>
-						<file>test-suite.xml</file>
+						<file>src/test/resources/testSuites/testng2.xml</file>
 					</suiteXmlFiles>
 					<threadCount>1</threadCount>
 					<reportsDirectory>target/test-output</reportsDirectory>

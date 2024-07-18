@@ -1,21 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test1s(failed)">
-    <parameter name="testDataPath" value="TestData/VendorPortal/sam.json"/>
-    <parameter name="expectedPrice" value="$584 USD"/>
+<suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="Test3(failed)">
+    <parameter name="expectedPrice" value="$1753 USD"/>
     <parameter name="browser" value="chrome"/>
+    <parameter name="noOfPassengers" value="3"/>
     <classes>
-      <class name="com.vinsGuru.vendarPortal.VendorPortalTest">
+      <class name="com.vinGuru.tests.flightResevearion.FlightReseverationTest">
         <methods>
-          <include name="dashBoardTest"/>
-          <include name="quiteDriver"/>
+          <include name="userRegistaraionTest"/>
+          <include name="setupConfig"/>
+          <include name="flightReseverationConfirmationTest"/>
+          <include name="flightSearchTest"/>
+          <include name="flightSelectionTest"/>
           <include name="setPage"/>
-          <include name="loginTest"/>
-          <include name="logout"/>
+          <include name="quiteDriver"/>
+          <include name="registartionConfirmationPage"/>
           <include name="setDriver"/>
         </methods>
-      </class> <!-- com.vinsGuru.vendarPortal.VendorPortalTest -->
+      </class> <!-- com.vinGuru.tests.flightResevearion.FlightReseverationTest -->
     </classes>
-  </test> <!-- Test1s(failed) -->
+  </test> <!-- Test3(failed) -->
+  <test thread-count="3" parallel="tests" name="Test2(failed)">
+    <parameter name="expectedPrice" value="$1169 USD"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="noOfPassengers" value="2"/>
+    <classes>
+      <class name="com.vinGuru.tests.flightResevearion.FlightReseverationTest">
+        <methods>
+          <include name="userRegistaraionTest"/>
+          <include name="setupConfig"/>
+          <include name="flightReseverationConfirmationTest"/>
+          <include name="flightSearchTest"/>
+          <include name="flightSelectionTest"/>
+          <include name="setPage"/>
+          <include name="quiteDriver"/>
+          <include name="registartionConfirmationPage"/>
+          <include name="setDriver"/>
+        </methods>
+      </class> <!-- com.vinGuru.tests.flightResevearion.FlightReseverationTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="3" parallel="tests" name="Test4(failed)">
+    <parameter name="expectedPrice" value="$2338 USD"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="noOfPassengers" value="4"/>
+    <classes>
+      <class name="com.vinGuru.tests.flightResevearion.FlightReseverationTest">
+        <methods>
+          <include name="userRegistaraionTest"/>
+          <include name="setupConfig"/>
+          <include name="flightReseverationConfirmationTest"/>
+          <include name="flightSearchTest"/>
+          <include name="flightSelectionTest"/>
+          <include name="setPage"/>
+          <include name="quiteDriver"/>
+          <include name="registartionConfirmationPage"/>
+          <include name="setDriver"/>
+        </methods>
+      </class> <!-- com.vinGuru.tests.flightResevearion.FlightReseverationTest -->
+    </classes>
+  </test> <!-- Test4(failed) -->
 </suite> <!-- Failed suite [Suite] -->
