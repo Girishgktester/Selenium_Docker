@@ -23,7 +23,7 @@
 	</test>
 
 	<test thread-count="5" name="Test3">
-		<parameter name="browser" value="firefox" />
+		<parameter name="browser" value="chrome" />
 		<parameter name="noOfPassengers" value="3" />
 		<parameter name="expectedPrice" value="$1753 USD" />
 
@@ -34,7 +34,7 @@
 	</test>
 
 	<test thread-count="5" name="Test4">
-		<parameter name="browser" value="firefox" />
+		<parameter name="browser" value="chrome" />
 		<parameter name="noOfPassengers" value="4" />
 		<parameter name="expectedPrice" value="$2338 USD" />
 
