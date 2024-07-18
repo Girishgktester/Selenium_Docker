@@ -5,8 +5,6 @@ import static org.testng.Assert.assertTrue;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
-import com.github.dockerjava.api.model.Config;
 import com.tests.BaseTest;
 import com.utils.Constants;
 import com.vinsguru.pages.flightsReseveration.FlightConfirmationPage;

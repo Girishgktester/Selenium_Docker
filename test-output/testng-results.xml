@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-18T21:47:11 IST" name="Suite" finished-at="2024-07-18T21:47:26 IST" duration-ms="15668">
+  <suite started-at="2024-07-18T21:52:05 IST" name="Suite" finished-at="2024-07-18T21:52:11 IST" duration-ms="6253">
     <groups>
     </groups>
-    <test started-at="2024-07-18T21:47:11 IST" name="Test1s" finished-at="2024-07-18T21:47:26 IST" duration-ms="15668">
+    <test started-at="2024-07-18T21:52:05 IST" name="Test1s" finished-at="2024-07-18T21:52:11 IST" duration-ms="6253">
       <class name="com.vinsGuru.vendarPortal.VendorPortalTest">
-        <test-method is-config="true" signature="setupConfig()[pri:0, instance:com.vinsGuru.vendarPortal.VendorPortalTest@17f62e33]" started-at="2024-07-18T21:47:10 IST" name="setupConfig" finished-at="2024-07-18T21:47:11 IST" duration-ms="204" status="PASS">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:com.vinsGuru.vendarPortal.VendorPortalTest@36902638]" started-at="2024-07-18T21:52:04 IST" name="setupConfig" finished-at="2024-07-18T21:52:05 IST" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupConfig -->
-        <test-method is-config="true" signature="setDriver(java.lang.String)[pri:0, instance:com.vinsGuru.vendarPortal.VendorPortalTest@17f62e33]" started-at="2024-07-18T21:47:11 IST" name="setDriver" finished-at="2024-07-18T21:47:12 IST" duration-ms="1172" status="PASS">
+        <test-method is-config="true" signature="setDriver(java.lang.String)[pri:0, instance:com.vinsGuru.vendarPortal.VendorPortalTest@36902638]" started-at="2024-07-18T21:52:05 IST" name="setDriver" finished-at="2024-07-18T21:52:06 IST" duration-ms="911" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method is-config="true" signature="setPage(java.lang.String)[pri:0, instance:com.vinsGuru.vendarPortal.VendorPortalTest@17f62e33]" started-at="2024-07-18T21:47:12 IST" name="setPage" finished-at="2024-07-18T21:47:12 IST" depends-on-methods="com.tests.BaseTest.setDriver" duration-ms="217" status="PASS">
+        <test-method is-config="true" signature="setPage(java.lang.String)[pri:0, instance:com.vinsGuru.vendarPortal.VendorPortalTest@36902638]" started-at="2024-07-18T21:52:06 IST" name="setPage" finished-at="2024-07-18T21:52:06 IST" depends-on-methods="com.tests.BaseTest.setDriver" duration-ms="210" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,19 +33,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method signature="loginTest()[pri:0, instance:com.vinsGuru.vendarPortal.VendorPortalTest@17f62e33]" started-at="2024-07-18T21:47:12 IST" name="loginTest" finished-at="2024-07-18T21:47:21 IST" duration-ms="9355" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.vinsGuru.vendarPortal.VendorPortalTest@36902638]" started-at="2024-07-18T21:52:06 IST" name="loginTest" finished-at="2024-07-18T21:52:07 IST" duration-ms="973" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="dashBoardTest()[pri:0, instance:com.vinsGuru.vendarPortal.VendorPortalTest@17f62e33]" started-at="2024-07-18T21:47:21 IST" name="dashBoardTest" finished-at="2024-07-18T21:47:25 IST" depends-on-methods="com.vinsGuru.vendarPortal.VendorPortalTest.loginTest" duration-ms="3402" status="PASS">
+        <test-method signature="dashBoardTest()[pri:0, instance:com.vinsGuru.vendarPortal.VendorPortalTest@36902638]" started-at="2024-07-18T21:52:07 IST" name="dashBoardTest" finished-at="2024-07-18T21:52:09 IST" depends-on-methods="com.vinsGuru.vendarPortal.VendorPortalTest.loginTest" duration-ms="2634" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashBoardTest -->
-        <test-method signature="logout()[pri:0, instance:com.vinsGuru.vendarPortal.VendorPortalTest@17f62e33]" started-at="2024-07-18T21:47:25 IST" name="logout" finished-at="2024-07-18T21:47:26 IST" depends-on-methods="com.vinsGuru.vendarPortal.VendorPortalTest.dashBoardTest" duration-ms="1413" status="PASS">
+        <test-method signature="logout()[pri:0, instance:com.vinsGuru.vendarPortal.VendorPortalTest@36902638]" started-at="2024-07-18T21:52:09 IST" name="logout" finished-at="2024-07-18T21:52:11 IST" depends-on-methods="com.vinsGuru.vendarPortal.VendorPortalTest.dashBoardTest" duration-ms="1419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="quiteDriver()[pri:0, instance:com.vinsGuru.vendarPortal.VendorPortalTest@17f62e33]" started-at="2024-07-18T21:47:26 IST" name="quiteDriver" finished-at="2024-07-18T21:47:26 IST" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="quiteDriver()[pri:0, instance:com.vinsGuru.vendarPortal.VendorPortalTest@36902638]" started-at="2024-07-18T21:52:11 IST" name="quiteDriver" finished-at="2024-07-18T21:52:11 IST" duration-ms="82" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quiteDriver -->

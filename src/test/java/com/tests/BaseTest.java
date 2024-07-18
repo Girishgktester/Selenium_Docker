@@ -42,10 +42,11 @@ public abstract class BaseTest {
 		} else {
 			capbilities = new FirefoxOptions();
 		}
-//		String urlFormat = Config.get(Constants.GRID_URL_FORMAT);
-//		String hubHost = Config.get(Constants.GRID_HUB_HOST);
-//		String url = String.format(urlFormat, hubHost)
-		return new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capbilities);
+		String urlFormat = com.utils.Config.get(Constants.GRID_URL_FORMAT);
+		String hubHost = com.utils.Config.get(Constants.GRID_HUB_HOST);
+		String url = String.format(urlFormat, hubHost);
+		System.out.println(url);
+		return new RemoteWebDriver(new URL(url), capbilities);
 	}
 
 	private WebDriver getWebDriver() {

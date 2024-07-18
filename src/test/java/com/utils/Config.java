@@ -1,12 +1,8 @@
 package com.utils;
 
-import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
-
 import org.slf4j.LoggerFactory;
-
-import io.opentelemetry.api.logs.Logger;
 
 public class Config {
 
@@ -15,26 +11,22 @@ public class Config {
 	    private static Properties properties;
 
 	    public static void initialize(){
-
-	        // load default properties
 	        properties = loadProperties();
 
-	        // check for any override
 	        for(String key: properties.stringPropertyNames()){
 	            if(System.getProperties().containsKey(key)){
 	                properties.setProperty(key, System.getProperty(key));
 	            }
 	        }
 
-	        // print
-	        log.info("Test Properties");
-	        log.info("-----------------");
-	        for(String key: properties.stringPropertyNames()){
-	            log.info("{}={}", key, properties.getProperty(key));
-	        }
-	        log.info("-----------------");
-
-	    }
+			// print
+			log.info("Test Properties");
+			log.info("-----------------");
+			for (String key : properties.stringPropertyNames()) {
+				log.info("{}={}", key, properties.getProperty(key));
+			}
+			log.info("-----------------");
+		}
 
 	    public static String get(String key){
 	        return properties.getProperty(key);
@@ -48,6 +40,6 @@ public class Config {
 	            log.error("unable to read the property file {}", DEFAULT_PROPERTIES, e);
 	        }
 	        return properties;
-	    }
+		}
 
-}
+	}
