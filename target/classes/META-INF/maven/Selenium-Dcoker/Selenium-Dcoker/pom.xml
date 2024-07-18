@@ -78,7 +78,7 @@
 				<version>${maven.surefire.version}</version>
 				<configuration>
 					<systemPropertyVariables>
-						<browser>chrome</browser>
+						<!-- <browser>chrome</browser>-->
 						<seleniuum.grid.enabled>true</seleniuum.grid.enabled>
 					</systemPropertyVariables>
 					<suiteXmlFiles>

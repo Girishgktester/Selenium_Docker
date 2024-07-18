@@ -3,7 +3,7 @@
 <suite name="Suite">
 
 	<test thread-count="5" name="Test1s">
-
+		<parameter name="browser" value="firefox" />
 		<parameter name="testDataPath" value="TestData/VendorPortal/sam.json" />
 		<parameter name="expectedPrice" value="$584 USD" />
 
