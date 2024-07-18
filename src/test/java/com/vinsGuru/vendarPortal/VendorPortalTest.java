@@ -1,6 +1,7 @@
 package com.vinsGuru.vendarPortal;
 
 import com.tests.BaseTest;
+import com.utils.Constants;
 import com.utils.jsonUtils;
 import com.vinsguru.pages.vendorportal.DashboardPage;
 import com.vinsguru.pages.vendorportal.LoginPage;
@@ -32,6 +33,7 @@ public class VendorPortalTest extends BaseTest {
 	@Test
 	public void loginTest() {
 		loginPage = new LoginPage(driver);
+		System.out.println(com.utils.Config.get(Constants.FLIGHT_RESEVERATION_URL));
 		loginPage.goTo("https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html");
 		Assert.assertTrue(loginPage.isAt());
 		loginPage.login(testData.getUserName(), testData.getUserName());

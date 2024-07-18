@@ -5,7 +5,10 @@ import static org.testng.Assert.assertTrue;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+
+import com.github.dockerjava.api.model.Config;
 import com.tests.BaseTest;
+import com.utils.Constants;
 import com.vinsguru.pages.flightsReseveration.FlightConfirmationPage;
 import com.vinsguru.pages.flightsReseveration.FlightSearchPage;
 import com.vinsguru.pages.flightsReseveration.FlightSelectionPage;
@@ -38,7 +41,8 @@ public class FlightReseverationTest extends BaseTest {
 	@Test
 	public void userRegistaraionTest() {
 		regstrationPage = new RegestrationPage(driver);
-		regstrationPage.getUrl("https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html#");
+		System.out.println(com.utils.Config.get(Constants.FLIGHT_RESEVERATION_URL));
+		regstrationPage.getUrl(com.utils.Config.get(Constants.FLIGHT_RESEVERATION_URL));
 		assertTrue(regstrationPage.isAt());
 		regstrationPage.enterUserNameAndPassword("Test", "Docker");
 		regstrationPage.enterCred("Selenium@Docker.com", "Test@123");

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test2</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/4</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jul 18 17:19:24 IST 2024</td>
+<td>Started on:</td><td>Thu Jul 18 20:06:30 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>9 seconds (9728 ms)</td>
+<tr><td>Total time:</td><td>4 seconds (4242 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,23 +75,41 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightReseverationConfirmationTest()'><b>flightReseverationConfirmationTest</b><br>Test class: com.vinGuru.tests.flightResevearion.FlightReseverationTest</td>
-<td><div><pre>java.lang.AssertionError: expected [$1169 USD] but found [$584 USD]
-	at com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightReseverationConfirmationTest(FlightReseverationTest.java:78)
+<td title='com.vinGuru.tests.flightResevearion.FlightReseverationTest.userRegistaraionTest()'><b>userRegistaraionTest</b><br>Test class: com.vinGuru.tests.flightResevearion.FlightReseverationTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.id: lastName
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.0&apos;, revision: &apos;15400459dd*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
+	at com.vinsguru.pages.flightsReseveration.RegestrationPage.enterUserNameAndPassword(RegestrationPage.java:46)
+	at com.vinGuru.tests.flightResevearion.FlightReseverationTest.userRegistaraionTest(FlightReseverationTest.java:43)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace831245810", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace831245810'><pre>java.lang.AssertionError: expected [$1169 USD] but found [$584 USD]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at org.testng.Assert.assertEquals(Assert.java:639)
-	at com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightReseverationConfirmationTest(FlightReseverationTest.java:78)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace863533691", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace863533691'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.id: lastName
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.0&apos;, revision: &apos;15400459dd*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.sendKeys(Unknown Source)
+	at com.vinsguru.pages.flightsReseveration.RegestrationPage.enterUserNameAndPassword(RegestrationPage.java:46)
+	at com.vinGuru.tests.flightResevearion.FlightReseverationTest.userRegistaraionTest(FlightReseverationTest.java:43)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -114,36 +132,124 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 </pre></div></td>
-<td>2</td>
-<td>com.vinGuru.tests.flightResevearion.FlightReseverationTest@6f1de4c7</td></tr>
+<td>1</td>
+<td>com.vinGuru.tests.flightResevearion.FlightReseverationTest@2a4fb17b</td></tr>
 </table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest()'><b>flightSearchTest</b><br>Test class: com.vinGuru.tests.flightResevearion.FlightReseverationTest</td>
-<td></td>
-<td>1</td>
-<td>com.vinGuru.tests.flightResevearion.FlightReseverationTest@6f1de4c7</td></tr>
-<tr>
 <td title='com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest()'><b>flightSelectionTest</b><br>Test class: com.vinGuru.tests.flightResevearion.FlightReseverationTest</td>
-<td></td>
+<td><div><pre>java.lang.Throwable: Method FlightReseverationTest.flightSelectionTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@2a4fb17b] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1558585444", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1558585444'><pre>java.lang.Throwable: Method FlightReseverationTest.flightSelectionTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@2a4fb17b] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
 <td>0</td>
-<td>com.vinGuru.tests.flightResevearion.FlightReseverationTest@6f1de4c7</td></tr>
-<tr>
-<td title='com.vinGuru.tests.flightResevearion.FlightReseverationTest.userRegistaraionTest()'><b>userRegistaraionTest</b><br>Test class: com.vinGuru.tests.flightResevearion.FlightReseverationTest</td>
-<td></td>
-<td>1</td>
-<td>com.vinGuru.tests.flightResevearion.FlightReseverationTest@6f1de4c7</td></tr>
+<td>com.vinGuru.tests.flightResevearion.FlightReseverationTest@2a4fb17b</td></tr>
 <tr>
 <td title='com.vinGuru.tests.flightResevearion.FlightReseverationTest.registartionConfirmationPage()'><b>registartionConfirmationPage</b><br>Test class: com.vinGuru.tests.flightResevearion.FlightReseverationTest</td>
-<td></td>
-<td>1</td>
-<td>com.vinGuru.tests.flightResevearion.FlightReseverationTest@6f1de4c7</td></tr>
+<td><div><pre>java.lang.Throwable: Method FlightReseverationTest.registartionConfirmationPage()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@2a4fb17b] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace822214964", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace822214964'><pre>java.lang.Throwable: Method FlightReseverationTest.registartionConfirmationPage()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@2a4fb17b] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>0</td>
+<td>com.vinGuru.tests.flightResevearion.FlightReseverationTest@2a4fb17b</td></tr>
+<tr>
+<td title='com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest()'><b>flightSearchTest</b><br>Test class: com.vinGuru.tests.flightResevearion.FlightReseverationTest</td>
+<td><div><pre>java.lang.Throwable: Method FlightReseverationTest.flightSearchTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@2a4fb17b] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace537238771", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace537238771'><pre>java.lang.Throwable: Method FlightReseverationTest.flightSearchTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@2a4fb17b] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>0</td>
+<td>com.vinGuru.tests.flightResevearion.FlightReseverationTest@2a4fb17b</td></tr>
+<tr>
+<td title='com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightReseverationConfirmationTest()'><b>flightReseverationConfirmationTest</b><br>Test class: com.vinGuru.tests.flightResevearion.FlightReseverationTest</td>
+<td><div><pre>java.lang.Throwable: Method FlightReseverationTest.flightReseverationConfirmationTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@2a4fb17b] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace72112580", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace72112580'><pre>java.lang.Throwable: Method FlightReseverationTest.flightReseverationConfirmationTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@2a4fb17b] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>0</td>
+<td>com.vinGuru.tests.flightResevearion.FlightReseverationTest@2a4fb17b</td></tr>
 </table><p>
 </body>
 </html>
