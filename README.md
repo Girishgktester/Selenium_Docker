@@ -1,1 +1,1 @@
-This framework is integerated with Dockrized selenium grid.
+This framework is integerated with Dockerized selenium grid.
