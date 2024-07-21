@@ -34,10 +34,10 @@ public abstract class BaseTest {
 		
 		if (Boolean.getBoolean("selenium.grid.enabled")) {
 			this.driver = getRemoteDriver(browser);
+			con.setAttribute(Constants.DRIVER, this.driver);
 		} else {
 			this.driver = getWebDriver();
 		}
-		con.setAttribute(Constants.DRIVER, this.driver);
 	}
 
 	@SuppressWarnings("deprecation")

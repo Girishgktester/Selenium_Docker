@@ -1,0 +1,8 @@
+com\vinsguru\pages\flightsReseveration\FlightSearchPage.class
+com\vinsguru\pages\vendorportal\LoginPage.class
+com\vinsguru\pages\flightsReseveration\RegestrationPage.class
+com\vinsguru\pages\vendorportal\DashboardPage.class
+com\vinsguru\pages\AbstractPage.class
+com\vinsguru\pages\flightsReseveration\RegistrationConfirmationPage.class
+com\vinsguru\pages\flightsReseveration\FlightSelectionPage.class
+com\vinsguru\pages\flightsReseveration\FlightConfirmationPage.class

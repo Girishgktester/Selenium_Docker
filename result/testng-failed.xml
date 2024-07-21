@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1s(failed)">
+    <parameter name="testDataPath" value="TestData/VendorPortal/sam.json"/>
+    <parameter name="expectedPrice" value="$584 USD"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.vinsGuru.vendarPortal.VendorPortalTest">
+        <methods>
+          <include name="setupConfig"/>
+          <include name="dashBoardTest"/>
+          <include name="quiteDriver"/>
+          <include name="setPage"/>
+          <include name="loginTest"/>
+          <include name="logout"/>
+          <include name="setDriver"/>
+        </methods>
+      </class> <!-- com.vinsGuru.vendarPortal.VendorPortalTest -->
+    </classes>
+  </test> <!-- Test1s(failed) -->
+</suite> <!-- Failed suite [Suite] -->
