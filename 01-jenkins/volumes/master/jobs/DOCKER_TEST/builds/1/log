@@ -1,0 +1,11 @@
+Started by user [8mha:////4B7Z8ZcSS1VLK8zmtxggVus/MsguUpEflDTIxj+5jSBgAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZu/dLi1CL9xJTczDwAmdyTSsAAAAA=[0madmin@admin.com
+Running as SYSTEM
+Building remotely on [8mha:////4NHn1zwAwUN+XfBAmM5v6cMt+H7StJLIEOu/UgpoShJVAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQifT9/F1dDAHjR2ovEAAAA[0mNODE1 in workspace C:\Users\Girish Kulkarni\Documents\JavaPractice\Selenium-Dcoker\01-jenkins\volumes\node\workspace\DOCKER_TEST
+[DOCKER_TEST] $ cmd /c call C:\Users\GIRISH~1\AppData\Local\Temp\jenkins1067900017979881323.bat
+
+C:\Users\Girish Kulkarni\Documents\JavaPractice\Selenium-Dcoker\01-jenkins\volumes\node\workspace\DOCKER_TEST>docker ps 
+CONTAINER ID   IMAGE                 COMMAND                  CREATED       STATUS       PORTS                                              NAMES
+36fed753f724   jenkins/jenkins:lts   "/usr/bin/tini -- /u…"   2 hours ago   Up 2 hours   0.0.0.0:8080->8080/tcp, 0.0.0.0:50000->50000/tcp   01-jenkins-jenkins-1
+
+C:\Users\Girish Kulkarni\Documents\JavaPractice\Selenium-Dcoker\01-jenkins\volumes\node\workspace\DOCKER_TEST>exit 0 
+Finished: SUCCESS
