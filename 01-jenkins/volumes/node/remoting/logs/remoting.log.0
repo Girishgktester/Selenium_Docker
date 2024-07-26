@@ -31118,3 +31118,38 @@ Jul 26, 2024 10:39:26 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver
 INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
 Jul 26, 2024 10:39:36 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
 INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Jul 26, 2024 10:39:46 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Jul 26, 2024 10:40:01 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Failed to connect to http://localhost:8080/. Will try again: java.net.SocketTimeoutException Read timed out
+Jul 26, 2024 10:40:15 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Jul 26, 2024 10:40:25 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Controller isn't ready to talk to us on http://localhost:8080/tcpSlaveAgentListener/. Will try again: response code=503
+Jul 26, 2024 10:40:35 PM hudson.remoting.Launcher$CuiListener status
+INFO: Performing onReconnect operation.
+Jul 26, 2024 10:40:35 PM hudson.remoting.Launcher$CuiListener status
+INFO: onReconnect operation completed.
+Jul 26, 2024 10:40:35 PM hudson.remoting.Launcher$CuiListener status
+INFO: Locating server among [http://localhost:8080/]
+Jul 26, 2024 10:40:35 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+Jul 26, 2024 10:40:35 PM hudson.remoting.Launcher$CuiListener status
+INFO: Agent discovery successful
+  Agent address: localhost
+  Agent port:    50000
+  Identity:      2f:e9:8c:bc:19:a9:98:55:8e:7d:b3:7f:ba:00:42:13
+Jul 26, 2024 10:40:35 PM hudson.remoting.Launcher$CuiListener status
+INFO: Handshaking
+Jul 26, 2024 10:40:35 PM hudson.remoting.Launcher$CuiListener status
+INFO: Connecting to localhost:50000
+Jul 26, 2024 10:40:35 PM hudson.remoting.Launcher$CuiListener status
+INFO: Server reports protocol JNLP4-connect-proxy not supported, skipping
+Jul 26, 2024 10:40:35 PM hudson.remoting.Launcher$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+Jul 26, 2024 10:40:35 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+INFO: Waiting for ProtocolStack to start.
+Jul 26, 2024 10:40:37 PM hudson.remoting.Launcher$CuiListener status
+INFO: Remote identity confirmed: 2f:e9:8c:bc:19:a9:98:55:8e:7d:b3:7f:ba:00:42:13
+Jul 26, 2024 10:40:37 PM hudson.remoting.Launcher$CuiListener status
+INFO: Connected
