@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test1</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/2</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jul 23 14:25:01 IST 2024</td>
+<td>Started on:</td><td>Mon Aug 04 21:00:40 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>11 seconds (11689 ms)</td>
+<tr><td>Total time:</td><td>46 seconds (46952 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,38 +67,137 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.vinGuru.tests.flightResevearion.FlightReseverationTest.userRegistaraionTest()'><b>userRegistaraionTest</b><br>Test class: com.vinGuru.tests.flightResevearion.FlightReseverationTest</td>
-<td></td>
+<td title='com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest()'><b>flightSearchTest</b><br>Test class: com.vinGuru.tests.flightResevearion.FlightReseverationTest</td>
+<td><div><pre>java.lang.NoSuchMethodError: &apos;java.lang.String org.openqa.selenium.WebElement.getDomAttribute(java.lang.String)&apos;
+	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:51)
+	at com.vinsguru.pages.flightsReseveration.FlightSearchPage.selectPassenger(FlightSearchPage.java:30)
+	at com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest(FlightReseverationTest.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace893902197", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace893902197'><pre>java.lang.NoSuchMethodError: &apos;java.lang.String org.openqa.selenium.WebElement.getDomAttribute(java.lang.String)&apos;
+	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:51)
+	at com.vinsguru.pages.flightsReseveration.FlightSearchPage.selectPassenger(FlightSearchPage.java:30)
+	at com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest(FlightReseverationTest.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</pre></div></td>
 <td>2</td>
-<td>com.vinGuru.tests.flightResevearion.FlightReseverationTest@72967906</td></tr>
+<td>com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
 <td title='com.vinGuru.tests.flightResevearion.FlightReseverationTest.registartionConfirmationPage()'><b>registartionConfirmationPage</b><br>Test class: com.vinGuru.tests.flightResevearion.FlightReseverationTest</td>
 <td></td>
-<td>0</td>
-<td>com.vinGuru.tests.flightResevearion.FlightReseverationTest@72967906</td></tr>
+<td>4</td>
+<td>com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779</td></tr>
 <tr>
-<td title='com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightReseverationConfirmationTest()'><b>flightReseverationConfirmationTest</b><br>Test class: com.vinGuru.tests.flightResevearion.FlightReseverationTest</td>
+<td title='com.vinGuru.tests.flightResevearion.FlightReseverationTest.userRegistaraionTest()'><b>userRegistaraionTest</b><br>Test class: com.vinGuru.tests.flightResevearion.FlightReseverationTest</td>
 <td></td>
-<td>2</td>
-<td>com.vinGuru.tests.flightResevearion.FlightReseverationTest@72967906</td></tr>
-<tr>
-<td title='com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest()'><b>flightSearchTest</b><br>Test class: com.vinGuru.tests.flightResevearion.FlightReseverationTest</td>
-<td></td>
-<td>2</td>
-<td>com.vinGuru.tests.flightResevearion.FlightReseverationTest@72967906</td></tr>
+<td>21</td>
+<td>com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
 <td title='com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest()'><b>flightSelectionTest</b><br>Test class: com.vinGuru.tests.flightResevearion.FlightReseverationTest</td>
-<td></td>
-<td>2</td>
-<td>com.vinGuru.tests.flightResevearion.FlightReseverationTest@72967906</td></tr>
+<td><div><pre>java.lang.Throwable: Method com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779 depends on not successfully finished methods 
+[com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace175967181", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace175967181'><pre>java.lang.Throwable: Method com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779 depends on not successfully finished methods 
+[com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</pre></div></td>
+<td>0</td>
+<td>com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779</td></tr>
+<tr>
+<td title='com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightReseverationConfirmationTest()'><b>flightReseverationConfirmationTest</b><br>Test class: com.vinGuru.tests.flightResevearion.FlightReseverationTest</td>
+<td><div><pre>java.lang.Throwable: Method com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightReseverationConfirmationTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779 depends on not successfully finished methods 
+[com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace201167476", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace201167476'><pre>java.lang.Throwable: Method com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightReseverationConfirmationTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779 depends on not successfully finished methods 
+[com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</pre></div></td>
+<td>0</td>
+<td>com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779</td></tr>
 </table><p>
 </body>
 </html>

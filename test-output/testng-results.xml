@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="20" passed="17" failed="3" skipped="0">
+<testng-results ignored="0" total="25" passed="10" failed="5" skipped="10">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-23T14:25:01 IST" name="Suite" finished-at="2024-07-23T14:25:23 IST" duration-ms="21837">
+  <suite started-at="2025-08-04T21:00:40 IST" name="Suite" finished-at="2025-08-04T21:01:28 IST" duration-ms="48288">
     <groups>
     </groups>
-    <test started-at="2024-07-23T14:25:01 IST" name="Test1" finished-at="2024-07-23T14:25:12 IST" duration-ms="11689">
+    <test started-at="2025-08-04T21:00:40 IST" name="Test4" finished-at="2025-08-04T21:01:25 IST" duration-ms="44966">
       <class name="com.vinGuru.tests.flightResevearion.FlightReseverationTest">
-        <test-method is-config="true" signature="setDriver(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@72967906]" started-at="2024-07-23T14:25:01 IST" name="setDriver" finished-at="2024-07-23T14:25:03 IST" duration-ms="1928" status="PASS">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@33ecbd6c]" started-at="2025-08-04T21:00:40 IST" name="setDriver" finished-at="2025-08-04T21:00:55 IST" duration-ms="15377" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@27508c5d]]>
+                <![CDATA[org.testng.TestRunner@5ceecfee]]>
               </value>
             </param>
             <param index="1">
@@ -23,269 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method is-config="true" signature="setPage(java.lang.String,java.lang.String)[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@72967906]" started-at="2024-07-23T14:25:03 IST" name="setPage" finished-at="2024-07-23T14:25:03 IST" depends-on-methods="com.tests.BaseTest.setDriver" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[$584 USD]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setPage -->
-        <test-method signature="userRegistaraionTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@72967906]" started-at="2024-07-23T14:25:03 IST" name="userRegistaraionTest" finished-at="2024-07-23T14:25:05 IST" duration-ms="2361" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userRegistaraionTest -->
-        <test-method signature="registartionConfirmationPage()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@72967906]" started-at="2024-07-23T14:25:05 IST" name="registartionConfirmationPage" finished-at="2024-07-23T14:25:06 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.userRegistaraionTest" duration-ms="748" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registartionConfirmationPage -->
-        <test-method signature="flightSearchTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@72967906]" started-at="2024-07-23T14:25:06 IST" name="flightSearchTest" finished-at="2024-07-23T14:25:08 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.registartionConfirmationPage" duration-ms="2212" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flightSearchTest -->
-        <test-method signature="flightSelectionTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@72967906]" started-at="2024-07-23T14:25:08 IST" name="flightSelectionTest" finished-at="2024-07-23T14:25:10 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest" duration-ms="2142" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flightSelectionTest -->
-        <test-method signature="flightReseverationConfirmationTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@72967906]" started-at="2024-07-23T14:25:10 IST" name="flightReseverationConfirmationTest" finished-at="2024-07-23T14:25:12 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest" duration-ms="2141" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flightReseverationConfirmationTest -->
-        <test-method is-config="true" signature="quiteDriver()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@72967906]" started-at="2024-07-23T14:25:12 IST" name="quiteDriver" finished-at="2024-07-23T14:25:12 IST" duration-ms="141" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quiteDriver -->
-      </class> <!-- com.vinGuru.tests.flightResevearion.FlightReseverationTest -->
-    </test> <!-- Test1 -->
-    <test started-at="2024-07-23T14:25:01 IST" name="Test3" finished-at="2024-07-23T14:25:13 IST" duration-ms="12484">
-      <class name="com.vinGuru.tests.flightResevearion.FlightReseverationTest">
-        <test-method is-config="true" signature="setDriver(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@51399530]" started-at="2024-07-23T14:25:01 IST" name="setDriver" finished-at="2024-07-23T14:25:03 IST" duration-ms="1928" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@4f704591]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setDriver -->
-        <test-method is-config="true" signature="setPage(java.lang.String,java.lang.String)[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@51399530]" started-at="2024-07-23T14:25:03 IST" name="setPage" finished-at="2024-07-23T14:25:03 IST" depends-on-methods="com.tests.BaseTest.setDriver" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[$1753 USD]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setPage -->
-        <test-method signature="userRegistaraionTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@51399530]" started-at="2024-07-23T14:25:03 IST" name="userRegistaraionTest" finished-at="2024-07-23T14:25:05 IST" duration-ms="2357" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userRegistaraionTest -->
-        <test-method signature="registartionConfirmationPage()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@51399530]" started-at="2024-07-23T14:25:05 IST" name="registartionConfirmationPage" finished-at="2024-07-23T14:25:08 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.userRegistaraionTest" duration-ms="2539" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registartionConfirmationPage -->
-        <test-method signature="flightSearchTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@51399530]" started-at="2024-07-23T14:25:08 IST" name="flightSearchTest" finished-at="2024-07-23T14:25:10 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.registartionConfirmationPage" duration-ms="2390" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flightSearchTest -->
-        <test-method signature="flightSelectionTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@51399530]" started-at="2024-07-23T14:25:10 IST" name="flightSelectionTest" finished-at="2024-07-23T14:25:12 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest" duration-ms="2282" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flightSelectionTest -->
-        <test-method signature="flightReseverationConfirmationTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@51399530]" started-at="2024-07-23T14:25:12 IST" name="flightReseverationConfirmationTest" finished-at="2024-07-23T14:25:13 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest" duration-ms="888" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [$1753 USD] but found [$584 USD]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [$1753 USD] but found [$584 USD]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightReseverationConfirmationTest(FlightReseverationTest.java:80)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:832)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flightReseverationConfirmationTest -->
-        <test-method is-config="true" signature="quiteDriver()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@51399530]" started-at="2024-07-23T14:25:13 IST" name="quiteDriver" finished-at="2024-07-23T14:25:13 IST" duration-ms="83" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quiteDriver -->
-      </class> <!-- com.vinGuru.tests.flightResevearion.FlightReseverationTest -->
-    </test> <!-- Test3 -->
-    <test started-at="2024-07-23T14:25:01 IST" name="Test2" finished-at="2024-07-23T14:25:15 IST" duration-ms="13806">
-      <class name="com.vinGuru.tests.flightResevearion.FlightReseverationTest">
-        <test-method is-config="true" signature="setDriver(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@443118b0]" started-at="2024-07-23T14:25:01 IST" name="setDriver" finished-at="2024-07-23T14:25:02 IST" duration-ms="1283" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@4b5189ac]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setDriver -->
-        <test-method is-config="true" signature="setPage(java.lang.String,java.lang.String)[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@443118b0]" started-at="2024-07-23T14:25:02 IST" name="setPage" finished-at="2024-07-23T14:25:02 IST" depends-on-methods="com.tests.BaseTest.setDriver" duration-ms="51" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[$1169 USD]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setPage -->
-        <test-method signature="userRegistaraionTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@443118b0]" started-at="2024-07-23T14:25:02 IST" name="userRegistaraionTest" finished-at="2024-07-23T14:25:05 IST" duration-ms="2743" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userRegistaraionTest -->
-        <test-method signature="registartionConfirmationPage()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@443118b0]" started-at="2024-07-23T14:25:05 IST" name="registartionConfirmationPage" finished-at="2024-07-23T14:25:07 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.userRegistaraionTest" duration-ms="2455" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registartionConfirmationPage -->
-        <test-method signature="flightSearchTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@443118b0]" started-at="2024-07-23T14:25:07 IST" name="flightSearchTest" finished-at="2024-07-23T14:25:10 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.registartionConfirmationPage" duration-ms="2442" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flightSearchTest -->
-        <test-method signature="flightSelectionTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@443118b0]" started-at="2024-07-23T14:25:10 IST" name="flightSelectionTest" finished-at="2024-07-23T14:25:12 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest" duration-ms="2132" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flightSelectionTest -->
-        <test-method signature="flightReseverationConfirmationTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@443118b0]" started-at="2024-07-23T14:25:12 IST" name="flightReseverationConfirmationTest" finished-at="2024-07-23T14:25:14 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest" duration-ms="2514" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [$1169 USD] but found [$584 USD]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [$1169 USD] but found [$584 USD]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightReseverationConfirmationTest(FlightReseverationTest.java:80)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:832)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flightReseverationConfirmationTest -->
-        <test-method is-config="true" signature="quiteDriver()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@443118b0]" started-at="2024-07-23T14:25:14 IST" name="quiteDriver" finished-at="2024-07-23T14:25:15 IST" duration-ms="134" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quiteDriver -->
-      </class> <!-- com.vinGuru.tests.flightResevearion.FlightReseverationTest -->
-    </test> <!-- Test2 -->
-    <test started-at="2024-07-23T14:25:13 IST" name="Test4" finished-at="2024-07-23T14:25:23 IST" duration-ms="10059">
-      <class name="com.vinGuru.tests.flightResevearion.FlightReseverationTest">
-        <test-method is-config="true" signature="setupConfig()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@62379589]" started-at="2024-07-23T14:25:01 IST" name="setupConfig" finished-at="2024-07-23T14:25:01 IST" duration-ms="165" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupConfig -->
-        <test-method is-config="true" signature="setDriver(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@62379589]" started-at="2024-07-23T14:25:13 IST" name="setDriver" finished-at="2024-07-23T14:25:13 IST" duration-ms="422" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@1e4d3ce5]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setDriver -->
-        <test-method is-config="true" signature="setPage(java.lang.String,java.lang.String)[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@62379589]" started-at="2024-07-23T14:25:13 IST" name="setPage" finished-at="2024-07-23T14:25:13 IST" depends-on-methods="com.tests.BaseTest.setDriver" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setPage(java.lang.String,java.lang.String)[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@33ecbd6c]" started-at="2025-08-04T21:00:55 IST" name="setPage" finished-at="2025-08-04T21:00:55 IST" depends-on-methods="com.tests.BaseTest.setDriver" duration-ms="195" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -301,70 +39,675 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method signature="userRegistaraionTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@62379589]" started-at="2024-07-23T14:25:13 IST" name="userRegistaraionTest" finished-at="2024-07-23T14:25:14 IST" duration-ms="1477" status="PASS">
+        <test-method signature="userRegistaraionTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@33ecbd6c]" started-at="2025-08-04T21:00:56 IST" name="userRegistaraionTest" finished-at="2025-08-04T21:01:20 IST" duration-ms="23982" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegistaraionTest -->
-        <test-method signature="registartionConfirmationPage()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@62379589]" started-at="2024-07-23T14:25:14 IST" name="registartionConfirmationPage" finished-at="2024-07-23T14:25:16 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.userRegistaraionTest" duration-ms="1812" status="PASS">
+        <test-method signature="registartionConfirmationPage()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@33ecbd6c]" started-at="2025-08-04T21:01:20 IST" name="registartionConfirmationPage" finished-at="2025-08-04T21:01:22 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.userRegistaraionTest" duration-ms="2013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registartionConfirmationPage -->
-        <test-method signature="flightSearchTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@62379589]" started-at="2024-07-23T14:25:16 IST" name="flightSearchTest" finished-at="2024-07-23T14:25:19 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.registartionConfirmationPage" duration-ms="2472" status="PASS">
+        <test-method signature="flightSearchTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@33ecbd6c]" started-at="2025-08-04T21:01:22 IST" name="flightSearchTest" finished-at="2025-08-04T21:01:24 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.registartionConfirmationPage" duration-ms="2322" status="FAIL">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA['java.lang.String org.openqa.selenium.WebElement.getDomAttribute(java.lang.String)']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: 'java.lang.String org.openqa.selenium.WebElement.getDomAttribute(java.lang.String)'
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:51)
+at com.vinsguru.pages.flightsReseveration.FlightSearchPage.selectPassenger(FlightSearchPage.java:30)
+at com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest(FlightReseverationTest.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flightSearchTest -->
-        <test-method signature="flightSelectionTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@62379589]" started-at="2024-07-23T14:25:19 IST" name="flightSelectionTest" finished-at="2024-07-23T14:25:21 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest" duration-ms="1916" status="PASS">
+        <test-method signature="flightSelectionTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@33ecbd6c]" started-at="2025-08-04T21:01:24 IST" name="flightSelectionTest" finished-at="2025-08-04T21:01:24 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@33ecbd6c depends on not successfully finished methods 
+[com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@33ecbd6c]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@33ecbd6c depends on not successfully finished methods 
+[com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@33ecbd6c]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flightSelectionTest -->
-        <test-method signature="flightReseverationConfirmationTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@62379589]" started-at="2024-07-23T14:25:21 IST" name="flightReseverationConfirmationTest" finished-at="2024-07-23T14:25:22 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest" duration-ms="1819" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="flightReseverationConfirmationTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@33ecbd6c]" started-at="2025-08-04T21:01:24 IST" name="flightReseverationConfirmationTest" finished-at="2025-08-04T21:01:24 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[expected [$2338 USD] but found [$584 USD]]]>
+              <![CDATA[Method com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightReseverationConfirmationTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@33ecbd6c depends on not successfully finished methods 
+[com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@33ecbd6c]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [$2338 USD] but found [$584 USD]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightReseverationConfirmationTest(FlightReseverationTest.java:80)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+              <![CDATA[java.lang.Throwable: Method com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightReseverationConfirmationTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@33ecbd6c depends on not successfully finished methods 
+[com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@33ecbd6c]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
 at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:832)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flightReseverationConfirmationTest -->
-        <test-method is-config="true" signature="quiteDriver()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@62379589]" started-at="2024-07-23T14:25:22 IST" name="quiteDriver" finished-at="2024-07-23T14:25:23 IST" duration-ms="131" status="PASS">
+        <test-method is-config="true" signature="quiteDriver()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@33ecbd6c]" started-at="2025-08-04T21:01:24 IST" name="quiteDriver" finished-at="2025-08-04T21:01:25 IST" duration-ms="724" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quiteDriver -->
       </class> <!-- com.vinGuru.tests.flightResevearion.FlightReseverationTest -->
     </test> <!-- Test4 -->
+    <test started-at="2025-08-04T21:00:40 IST" name="Test5" finished-at="2025-08-04T21:01:26 IST" duration-ms="46546">
+      <class name="com.vinGuru.tests.flightResevearion.FlightReseverationTest">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@7bab5898]" started-at="2025-08-04T21:00:39 IST" name="setupConfig" finished-at="2025-08-04T21:00:40 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfig -->
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@7bab5898]" started-at="2025-08-04T21:00:40 IST" name="setDriver" finished-at="2025-08-04T21:00:56 IST" duration-ms="15890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@28237492]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPage(java.lang.String,java.lang.String)[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@7bab5898]" started-at="2025-08-04T21:00:56 IST" name="setPage" finished-at="2025-08-04T21:00:56 IST" depends-on-methods="com.tests.BaseTest.setDriver" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$2922 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method signature="userRegistaraionTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@7bab5898]" started-at="2025-08-04T21:00:56 IST" name="userRegistaraionTest" finished-at="2025-08-04T21:01:18 IST" duration-ms="22626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistaraionTest -->
+        <test-method signature="registartionConfirmationPage()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@7bab5898]" started-at="2025-08-04T21:01:19 IST" name="registartionConfirmationPage" finished-at="2025-08-04T21:01:24 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.userRegistaraionTest" duration-ms="4616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registartionConfirmationPage -->
+        <test-method signature="flightSearchTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@7bab5898]" started-at="2025-08-04T21:01:24 IST" name="flightSearchTest" finished-at="2025-08-04T21:01:26 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.registartionConfirmationPage" duration-ms="2053" status="FAIL">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA['java.lang.String org.openqa.selenium.WebElement.getDomAttribute(java.lang.String)']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: 'java.lang.String org.openqa.selenium.WebElement.getDomAttribute(java.lang.String)'
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:51)
+at com.vinsguru.pages.flightsReseveration.FlightSearchPage.selectPassenger(FlightSearchPage.java:30)
+at com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest(FlightReseverationTest.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSearchTest -->
+        <test-method signature="flightSelectionTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@7bab5898]" started-at="2025-08-04T21:01:26 IST" name="flightSelectionTest" finished-at="2025-08-04T21:01:26 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@7bab5898 depends on not successfully finished methods 
+[com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@7bab5898]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@7bab5898 depends on not successfully finished methods 
+[com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@7bab5898]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSelectionTest -->
+        <test-method signature="flightReseverationConfirmationTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@7bab5898]" started-at="2025-08-04T21:01:26 IST" name="flightReseverationConfirmationTest" finished-at="2025-08-04T21:01:26 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightReseverationConfirmationTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@7bab5898 depends on not successfully finished methods 
+[com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@7bab5898]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightReseverationConfirmationTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@7bab5898 depends on not successfully finished methods 
+[com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@7bab5898]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightReseverationConfirmationTest -->
+        <test-method is-config="true" signature="quiteDriver()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@7bab5898]" started-at="2025-08-04T21:01:26 IST" name="quiteDriver" finished-at="2025-08-04T21:01:26 IST" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteDriver -->
+      </class> <!-- com.vinGuru.tests.flightResevearion.FlightReseverationTest -->
+    </test> <!-- Test5 -->
+    <test started-at="2025-08-04T21:00:40 IST" name="Test1" finished-at="2025-08-04T21:01:27 IST" duration-ms="46952">
+      <class name="com.vinGuru.tests.flightResevearion.FlightReseverationTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779]" started-at="2025-08-04T21:00:40 IST" name="setDriver" finished-at="2025-08-04T21:00:57 IST" duration-ms="17675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6342ff7f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPage(java.lang.String,java.lang.String)[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779]" started-at="2025-08-04T21:00:57 IST" name="setPage" finished-at="2025-08-04T21:00:57 IST" depends-on-methods="com.tests.BaseTest.setDriver" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$584 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method signature="userRegistaraionTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779]" started-at="2025-08-04T21:00:57 IST" name="userRegistaraionTest" finished-at="2025-08-04T21:01:19 IST" duration-ms="21384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistaraionTest -->
+        <test-method signature="registartionConfirmationPage()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779]" started-at="2025-08-04T21:01:19 IST" name="registartionConfirmationPage" finished-at="2025-08-04T21:01:23 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.userRegistaraionTest" duration-ms="4329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registartionConfirmationPage -->
+        <test-method signature="flightSearchTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779]" started-at="2025-08-04T21:01:23 IST" name="flightSearchTest" finished-at="2025-08-04T21:01:25 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.registartionConfirmationPage" duration-ms="2031" status="FAIL">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA['java.lang.String org.openqa.selenium.WebElement.getDomAttribute(java.lang.String)']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: 'java.lang.String org.openqa.selenium.WebElement.getDomAttribute(java.lang.String)'
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:51)
+at com.vinsguru.pages.flightsReseveration.FlightSearchPage.selectPassenger(FlightSearchPage.java:30)
+at com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest(FlightReseverationTest.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSearchTest -->
+        <test-method signature="flightSelectionTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779]" started-at="2025-08-04T21:01:25 IST" name="flightSelectionTest" finished-at="2025-08-04T21:01:25 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest" duration-ms="2" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779 depends on not successfully finished methods 
+[com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779 depends on not successfully finished methods 
+[com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSelectionTest -->
+        <test-method signature="flightReseverationConfirmationTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779]" started-at="2025-08-04T21:01:25 IST" name="flightReseverationConfirmationTest" finished-at="2025-08-04T21:01:25 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightReseverationConfirmationTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779 depends on not successfully finished methods 
+[com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightReseverationConfirmationTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779 depends on not successfully finished methods 
+[com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightReseverationConfirmationTest -->
+        <test-method is-config="true" signature="quiteDriver()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@30ca0779]" started-at="2025-08-04T21:01:26 IST" name="quiteDriver" finished-at="2025-08-04T21:01:27 IST" duration-ms="1087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteDriver -->
+      </class> <!-- com.vinGuru.tests.flightResevearion.FlightReseverationTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2025-08-04T21:00:40 IST" name="Test2" finished-at="2025-08-04T21:01:27 IST" duration-ms="47617">
+      <class name="com.vinGuru.tests.flightResevearion.FlightReseverationTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@527fc8e]" started-at="2025-08-04T21:00:40 IST" name="setDriver" finished-at="2025-08-04T21:00:59 IST" duration-ms="18899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@403c3a01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPage(java.lang.String,java.lang.String)[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@527fc8e]" started-at="2025-08-04T21:00:59 IST" name="setPage" finished-at="2025-08-04T21:00:59 IST" depends-on-methods="com.tests.BaseTest.setDriver" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1169 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method signature="userRegistaraionTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@527fc8e]" started-at="2025-08-04T21:00:59 IST" name="userRegistaraionTest" finished-at="2025-08-04T21:01:20 IST" duration-ms="21400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistaraionTest -->
+        <test-method signature="registartionConfirmationPage()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@527fc8e]" started-at="2025-08-04T21:01:20 IST" name="registartionConfirmationPage" finished-at="2025-08-04T21:01:24 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.userRegistaraionTest" duration-ms="4113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registartionConfirmationPage -->
+        <test-method signature="flightSearchTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@527fc8e]" started-at="2025-08-04T21:01:24 IST" name="flightSearchTest" finished-at="2025-08-04T21:01:27 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.registartionConfirmationPage" duration-ms="2722" status="FAIL">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA['java.lang.String org.openqa.selenium.WebElement.getDomAttribute(java.lang.String)']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: 'java.lang.String org.openqa.selenium.WebElement.getDomAttribute(java.lang.String)'
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:51)
+at com.vinsguru.pages.flightsReseveration.FlightSearchPage.selectPassenger(FlightSearchPage.java:30)
+at com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest(FlightReseverationTest.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSearchTest -->
+        <test-method signature="flightSelectionTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@527fc8e]" started-at="2025-08-04T21:01:27 IST" name="flightSelectionTest" finished-at="2025-08-04T21:01:27 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@527fc8e depends on not successfully finished methods 
+[com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@527fc8e]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@527fc8e depends on not successfully finished methods 
+[com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@527fc8e]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSelectionTest -->
+        <test-method signature="flightReseverationConfirmationTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@527fc8e]" started-at="2025-08-04T21:01:27 IST" name="flightReseverationConfirmationTest" finished-at="2025-08-04T21:01:27 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightReseverationConfirmationTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@527fc8e depends on not successfully finished methods 
+[com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@527fc8e]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightReseverationConfirmationTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@527fc8e depends on not successfully finished methods 
+[com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@527fc8e]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightReseverationConfirmationTest -->
+        <test-method is-config="true" signature="quiteDriver()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@527fc8e]" started-at="2025-08-04T21:01:27 IST" name="quiteDriver" finished-at="2025-08-04T21:01:27 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteDriver -->
+      </class> <!-- com.vinGuru.tests.flightResevearion.FlightReseverationTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2025-08-04T21:00:40 IST" name="Test3" finished-at="2025-08-04T21:01:28 IST" duration-ms="48260">
+      <class name="com.vinGuru.tests.flightResevearion.FlightReseverationTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@2c7106d9]" started-at="2025-08-04T21:00:40 IST" name="setDriver" finished-at="2025-08-04T21:01:04 IST" duration-ms="23826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2daf06fc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPage(java.lang.String,java.lang.String)[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@2c7106d9]" started-at="2025-08-04T21:01:04 IST" name="setPage" finished-at="2025-08-04T21:01:04 IST" depends-on-methods="com.tests.BaseTest.setDriver" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1753 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method signature="userRegistaraionTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@2c7106d9]" started-at="2025-08-04T21:01:04 IST" name="userRegistaraionTest" finished-at="2025-08-04T21:01:22 IST" duration-ms="18763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistaraionTest -->
+        <test-method signature="registartionConfirmationPage()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@2c7106d9]" started-at="2025-08-04T21:01:22 IST" name="registartionConfirmationPage" finished-at="2025-08-04T21:01:25 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.userRegistaraionTest" duration-ms="2688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registartionConfirmationPage -->
+        <test-method signature="flightSearchTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@2c7106d9]" started-at="2025-08-04T21:01:25 IST" name="flightSearchTest" finished-at="2025-08-04T21:01:28 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.registartionConfirmationPage" duration-ms="2535" status="FAIL">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA['java.lang.String org.openqa.selenium.WebElement.getDomAttribute(java.lang.String)']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: 'java.lang.String org.openqa.selenium.WebElement.getDomAttribute(java.lang.String)'
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:51)
+at com.vinsguru.pages.flightsReseveration.FlightSearchPage.selectPassenger(FlightSearchPage.java:30)
+at com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest(FlightReseverationTest.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSearchTest -->
+        <test-method signature="flightSelectionTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@2c7106d9]" started-at="2025-08-04T21:01:28 IST" name="flightSelectionTest" finished-at="2025-08-04T21:01:28 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@2c7106d9 depends on not successfully finished methods 
+[com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@2c7106d9]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@2c7106d9 depends on not successfully finished methods 
+[com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSearchTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@2c7106d9]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSelectionTest -->
+        <test-method signature="flightReseverationConfirmationTest()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@2c7106d9]" started-at="2025-08-04T21:01:28 IST" name="flightReseverationConfirmationTest" finished-at="2025-08-04T21:01:28 IST" depends-on-methods="com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightReseverationConfirmationTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@2c7106d9 depends on not successfully finished methods 
+[com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@2c7106d9]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightReseverationConfirmationTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@2c7106d9 depends on not successfully finished methods 
+[com.vinGuru.tests.flightResevearion.FlightReseverationTest.flightSelectionTest() on instance com.vinGuru.tests.flightResevearion.FlightReseverationTest@2c7106d9]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightReseverationConfirmationTest -->
+        <test-method is-config="true" signature="quiteDriver()[pri:0, instance:com.vinGuru.tests.flightResevearion.FlightReseverationTest@2c7106d9]" started-at="2025-08-04T21:01:28 IST" name="quiteDriver" finished-at="2025-08-04T21:01:28 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteDriver -->
+      </class> <!-- com.vinGuru.tests.flightResevearion.FlightReseverationTest -->
+    </test> <!-- Test3 -->
   </suite> <!-- Suite -->
 </testng-results>
