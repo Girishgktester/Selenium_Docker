@@ -8,8 +8,6 @@ import org.slf4j.LoggerFactory;
 
 import com.vinsguru.pages.AbstractPage;
 
-import ch.qos.logback.classic.Logger;
-
 public class FlightConfirmationPage extends AbstractPage {
 
 	public FlightConfirmationPage(WebDriver driver) {
@@ -31,7 +29,6 @@ public class FlightConfirmationPage extends AbstractPage {
 
 	public String getPrice() {
 		String price  = this.totalPrice.getText(); 
-		String confirmation  = this.flightConfirmation.getText(); 
 		log.info("Total price " + totalPrice.getText());
 		return price;
 	}

@@ -6,6 +6,7 @@
 	<artifactId>Selenium-Dcoker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+
 	<properties>
 		<selenium.java.version>4.16.0</selenium.java.version>
 		<logback.version>1.4.14</logback.version>
@@ -22,6 +23,9 @@
 		<package.directory>${project.build.directory}/docker-resources</package.directory>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
+		<aspectj.version>1.9.20.1</aspectj.version>
+		<allure.report.directory>=target/allure-results</allure.report.directory>
+
 	</properties>
 
 	<dependencies>
@@ -30,6 +34,14 @@
 			<artifactId>selenium-java</artifactId>
 			<version>${selenium.java.version}</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.1.2</version>
+		</dependency>
+
 		<!-- logging library -->
 		<!-- https://www.baeldung.com/logback -->
 		<dependency>
@@ -51,6 +63,15 @@
 			<version>${jackson.version}</version>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+		<dependency>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-testng</artifactId>
+			<version>2.29.0</version>
+		</dependency>
+
+
 		<!-- Test framework -->
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -81,7 +102,7 @@
 				<configuration>
 					<systemPropertyVariables>
 						<!-- <browser>chrome</browser>-->
-						<selenium.grid.enabled>true</selenium.grid.enabled>
+						<selenium.grid.enabled>false</selenium.grid.enabled>
 					</systemPropertyVariables>
 					<suiteXmlFiles>
 						<file>src/test/resources/testSuites/testng2.xml</file>
@@ -111,6 +132,26 @@
 					</execution>
 				</executions>
 			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.1.2</version>
+
+				<configuration>
+					<argLine>
+						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+					</argLine>
+				</configuration>
+				<dependencies>
+					<dependency>
+						<groupId>org.aspectj</groupId>
+						<artifactId>aspectjweaver</artifactId>
+						<version>${aspectj.version}</version>
+					</dependency>
+				</dependencies>
+			</plugin>
+
 			<!-- To package our page objects, test classes into jar -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -123,11 +164,11 @@
 					<execution>
 						<goals>
 							<goal>test-jar</goal>
-							</goals>
-							<configuration>
-								<includes>**/*.class</includes>
-							</configuration>
-						
+						</goals>
+						<configuration>
+							<includes>**/*.class</includes>
+						</configuration>
+
 					</execution>
 				</executions>
 			</plugin>
