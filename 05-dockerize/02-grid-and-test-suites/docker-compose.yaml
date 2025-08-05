@@ -36,7 +36,7 @@ services:
       - SE_NODE_MAX_SESSIONS=4
 
   vendor-portal:
-    image: javabase
+    image: gk403/text
     depends_on:
       - chrome
     environment:
